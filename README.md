@@ -32,7 +32,7 @@ Deployed:
 
 
 
-Study group: Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
+Study group: Susan, Sarah, Chris P, Jackson, Ricky, Karan, Ekow, Trent
 
 <img width="851" alt="image" src=" ">
 <img width="1292" alt="image" src=" ">
