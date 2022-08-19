@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #e6e7ee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header styles*/
+
+header {
+    padding: 35px 35px;
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+header h1 {
+    background-image:radial-gradient(darkorchid, darkblue, lightseagreen);
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    display: flex;
+}
+
+header a {
+color: #ffffff;
+text-decoration: underline;
+}
+
+header nav {
+margin: 7px;
+display: flex;
+padding: 20px 0 10px 0;
+}
+
+header nav ul {
+display: flex;
+width: 100%;
+}
+
+header nav ul li {
+    
+    font-size: 20px;
+    padding: 20px;
+    display:flex;
+  }
+
+header nav ul li a {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+/*link not visited */
+
+a:link {
+    color: #445876;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(175, 181, 175);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkorchid;
+  }
+  
+  /* selected link */
+  a:active {
+    color: lightseagreen;
+  }
+
+  
+/* Hero Style */
+.hero {
+  height: 400px;
+  background-image:radial-gradient(darkorchid, darkblue, lightseagreen);
+  background-position: center;
+  background-size: cover;
+  position:relative;
+  text-align: center;
+}
+
+.hero-text{
+  font-size: 40px;
+  color:rgb(119, 116, 113);
+}
+
+
+.link-style{
+font-size:20px;
+}
+
+.section-h2{
+  text-align:center;
+  font-size: 38px;
+  padding-left: 70px;
+
+}
+
+
+
+.left-column{
+  display:flex;
+  flex: 1;
+  justify-content:start;
+  border-right: #445876 solid 3px;
+  padding: 20 0px;
+
+}
+
+.right-column{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  padding:20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.holding-container{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 10px 0;
+}
+
+.internal-container{
+  flex:1;
+  padding:30px;
+  position:relative;
+  text-align: center;
+  
+}
+
+.centered{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-h2{
+  font-size:50px;
+  color:#ffffff;
+  opacity: 1;
+}
+
+.img-work{
+  flex:1;
+  width:100%;
+  height: 250px;
+  object-fit: cover;
+  opacity:1;
+  filter: alpha(opacity=100);
+}
+
+.img-work:hover{
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+
+.img-workL{
+  flex:3;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.img-workL:hover{
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.img-h2:hover{
+  font-size:50px;
+  color:red;
+  opacity: 1;
+}
+
+.break{
+  flex-basis:100%;
+  height:0;
+}
+
+
+@media screen and (max-width:768px){
+
+  .holding-container{
+flex-direction: column;
+margin:0px;
+  }
+  .left-column{
+    flex-direction: column;
+    justify-content:center;
+    border-right: 0px solid !important;
+    border-bottom: #445876 solid 2px ;
+    padding: 20px 0;
+    margin:10px;
+
+  }
+
+  .right-column{
+      flex-direction: column;
+      padding: 20px 0;
+    margin:10px;
+  }
+
+
+  .section-h2{
+  font-size: 38px;
+  text-align: center;
+  padding-left:0px !important;
+
+  }
+
+  .internal-container{
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin:2px;
+    
+  }
+  
+  
+.img-work{
+  flex-direction: column;
+  padding:10px;
+  margin:5px 0;
+}
+
+.img-workL{
+  flex-direction: column;
+  padding:10px;
+  margin:5px 0;
+}
+
+header h1 {
+  background-color:#172d4d;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  padding: 25px 25px;
+  background-color: #163e72;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
