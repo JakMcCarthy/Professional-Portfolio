@@ -31,6 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Deployed:
 
+https://jakmccarthy.github.io/Professional-Portfolio/
 
 
 Study group: Susan, Sarah, Chris P, Jackson, Ricky, Aaron
